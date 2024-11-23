@@ -1,0 +1,297 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+  }
+
+body{
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    width:100%;
+    height:100%;
+  }
+  .bg-image{
+    background-image: url('../img/dumbbell.jpeg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+a{
+  color:black
+  } 
+
+
+  .profile {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width:100px;
+  }
+  .primary-heading {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin:40px 0px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 20px;
+    text-align: center;
+    color:black;
+}
+
+
+  /* .playstore-icon {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width:300px;
+    margin-top:-90px;
+    margin-bottom:-90px;
+  } */
+
+  .fa-square-instagram {
+    font-size: 25px;
+    float: left;
+      color: transparent;
+      background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+      background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+      background-clip: text;
+      -webkit-background-clip: text;
+    }
+    .fa-square-youtube {
+      float: left;
+      font-size: 25px;
+      color: red;
+    }
+    .fa-tiktok {
+      float:left;
+      font-size: 25px;
+      color:black;
+    }
+
+    .fa-dumbbell {
+      float: left;
+      font-size: 25px;
+      color:black;
+    }
+
+    .fa-phone {
+      float: left;
+      font-size: 25px;
+      color:green;
+    }
+
+    .fa-envelope {
+      float: left;
+      font-size: 25px;
+    }
+
+
+  .container {
+      display:block;
+      text-align: center;  
+  }
+
+
+@media screen and (max-width: 820px) {
+  button {
+    width: 80%;
+    align-items: center;
+    padding: 20px 32px;
+    font-size: 14px;
+    margin: 10px 0px;
+    Background-color:gold;
+    color: black;
+    border: 1px solid black;
+    border-radius:36px;
+    cursor:pointer;
+    transition: all .3s ease;
+  }
+}
+
+@media screen and (min-width: 821px) {
+  button {
+    width: 50%;
+    align-items: center;
+    padding: 20px 32px;
+    font-size: 14px;
+    margin: 10px 0px;
+    Background-color:gold;
+    color: black;
+    border: 1px solid black;
+    border-radius:36px;
+    cursor:pointer;
+    transition: all .3s ease;
+  }
+}
+  button:hover {
+    transform:scale(1.1) ;
+  }
+  .coaching {
+    font-size: 10px;
+  }
+  .call-time {
+    font-size: 10px;
+  }
+  .contact {
+    font-size: 10px;
+  }
+body{
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    width:100%;
+    height:100%;
+  }
+  .bg-image{
+    background-image: url('../img/dumbbell.jpeg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+
+
+  .profile {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width:100px;
+  }
+  .primary-heading {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin:40px 0px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 20px;
+    text-align: center;
+    color:black;
+}
+
+
+  /* .playstore-icon {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width:300px;
+    margin-top:-90px;
+    margin-bottom:-90px;
+  } */
+
+  .fa-square-instagram {
+    font-size: 25px;
+    float: left;
+      color: transparent;
+      background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+      background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+      background-clip: text;
+      -webkit-background-clip: text;
+    }
+    .fa-square-youtube {
+      float: left;
+      font-size: 25px;
+      color: red;
+    }
+    .fa-tiktok {
+      float:left;
+      font-size: 25px;
+      color:black;
+    }
+
+    .fa-dumbbell {
+      float: left;
+      font-size: 25px;
+      color:black;
+    }
+
+    .fa-phone {
+      float: left;
+      font-size: 25px;
+      color:green;
+    }
+
+    .fa-envelope {
+      float: left;
+      font-size: 25px;
+    }
+
+
+  .container {
+      display:block;
+      text-align: center;  
+  }
+
+
+@media screen and (max-width: 820px) {
+  button {
+    width: 80%;
+    align-items: center;
+    padding: 20px 32px;
+    font-size: 14px;
+    margin: 10px 0px;
+    Background-color:gold;
+    color: black;
+    border: 1px solid black;
+    border-radius:36px;
+    cursor:pointer;
+    transition: all .3s ease;
+  }
+}
+
+@media screen and (min-width: 821px) {
+  button {
+    width: 50%;
+    align-items: center;
+    padding: 20px 32px;
+    font-size: 14px;
+    margin: 10px 0px;
+    Background-color:gold;
+    color: black;
+    border: 1px solid black;
+    border-radius:36px;
+    cursor:pointer;
+    transition: all .3s ease;
+  }
+}
+  button:hover {
+    transform:scale(1.1) ;
+  }
+  .coaching {
+    font-size: 10px;
+  }
+  .call-time {
+    font-size: 10px;
+  }
+  .contact {
+    font-size: 10px;
+  }

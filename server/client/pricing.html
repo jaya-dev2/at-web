@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Pricing Page</title>
+    <link rel="stylesheet" href="./CSS/pricing.css" />
+  </head>
+  <body onload="getLocation();">
+    <h2 class="heading-primary">Our Pricing</h2>
+    <div id="location-details"></div>
+    <div class="plan-section">
+      <div class="plan basic">
+        <h2 class="plan-heading">6 Months</h2>
+        <h3 id="sixmonths-plan-price"></h3>
+        <ul class="plan-features">
+          <li class="plan-item">Unlimited fitness content</li>
+          <li class="plan-item">Training content</li>
+          <li class="plan-item">Diet plan</li>
+          <li class="plan-item">Cancel any time</li>
+        </ul>
+        <a href="#" class="btn buy-now">Get Started</a>
+      </div>
+
+      <div class="plan master">
+        <h2 class="plan-heading">Yearly</h2>
+        <h3 id="yearly-plan-price"></h3>
+        <ul class="plan-features">
+          <li class="plan-item">Unlimited fitness content</li>
+          <li class="plan-item">Training content</li>
+          <li class="plan-item">Diet plan</li>
+          <li class="plan-item">Cancel any time</li>
+        </ul>
+        <a href="#" class="btn buy-now">Get Started</a>
+      </div>
+
+      <div class="plan pro">
+        <h2 class="plan-heading">Lifetime</h2>
+        <h3 id="lifetime-plan-price"></h3>
+        <ul class="plan-features">
+          <li class="plan-item">Save more on subscription</li>
+          <li class="plan-item">Unlimited fitness content</li>
+          <li class="plan-item">Training content</li>
+          <li class="plan-item">Diet plan</li>
+        </ul>
+        <a href="#" class="btn btn-blue">Get Started</a>
+      </div>
+    </div>
+    <!-- Script -->
+    <script src="./javascript/pricing.js" defer></script>
+  </body>
+</html>
