@@ -1,6 +1,6 @@
 # Project Setup  
 
-To run the Stripe server locally:  
+To run the server locally:  
 
 1. Navigate to the server folder:  
    ```bash
