@@ -14,8 +14,4 @@ To run the server locally:
 4. Run service in localhost
    ```bash
    npm run test
-<<<<<<< HEAD
-4. Navigate to http://localhost/ in your web browser
-=======
 5. Navigate to http://localhost/ in your web browser
->>>>>>> 7711947 (add .env.test and add details to readme)
